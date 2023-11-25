@@ -277,4 +277,6 @@ elif args.search_w:
     files = search_by_word(path[0], path[1])
     for f in files:
         print(f)
+else:
+    parser.print_help()
 
